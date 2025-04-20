@@ -1,9 +1,9 @@
-import React from "react";
+import { Component } from "react";
 
-function Header() {
-  return (
-    <>
-      <div className="container gx-0 user-container">
+class Header extends Component {
+  render() {
+    return (
+      <>
         <div className="user-header">
           <div>#</div>
           <div>Name</div>
@@ -12,9 +12,9 @@ function Header() {
           <div>Profession</div>
           <div>Actions</div>
         </div>
-      </div>
-    </>
-  );
+      </>
+    );
+  }
 }
 
 export default Header;
